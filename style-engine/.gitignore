@@ -1,0 +1,3 @@
+output/
+.tmp_render/
+__pycache__/
