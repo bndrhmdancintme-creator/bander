@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #9c7a3a; }
+    a:hover { color: #7d611f; }
+  </style>
+</helmet>
+<div dir="rtl" style="
+  width: 1080px; height: 1350px; position: relative; overflow: hidden;
+  background: #f1e8d6;
+  font-family: 'Tajawal', sans-serif; color: #191410;
+">
+  <div style="
+    position: absolute; inset: 0; opacity: 0.035; mix-blend-mode: multiply; pointer-events: none;
+    background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='200'%20height='200'%3E%3Cfilter%20id='n'%3E%3CfeTurbulence%20type='fractalNoise'%20baseFrequency='0.9'%20numOctaves='2'%20stitchTiles='stitch'/%3E%3C/filter%3E%3Crect%20width='100%25'%20height='100%25'%20filter='url(%23n)'/%3E%3C/svg%3E&quot;);
+  "></div>
+
+  <div style="position: absolute; top: 88px; right: 88px; font-family: 'Cairo', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: 0.05em; color: #9c7a3a;">
+    #04
+  </div>
+
+  <div style="position: absolute; top: 150px; bottom: 210px; right: 88px; width: 1.5px; background: linear-gradient(to bottom, rgba(156,122,58,0.6), rgba(156,122,58,0.05));"></div>
+
+  <div style="position: absolute; top: 490px; right: 132px; left: 88px; text-align: right;">
+    <h1 style="
+      margin: 0; font-family: 'Cairo', sans-serif; font-weight: 900; font-size: 66px;
+      line-height: 1.55; color: #191410; text-wrap: pretty;
+    ">كل ما سألت نفسك<br>أسئلة أوضح، راح<br>تستلم أجوبة أوضح.</h1>
+  </div>
+
+  <div style="position: absolute; bottom: 88px; left: 88px; right: 88px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="width: 260px; height: 1px; background: linear-gradient(to right, transparent, #cdbf9f);"></div>
+    <span style="font-family: 'Cairo', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: 0.08em; color: #6b6355;">حكمة بندر</span>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
